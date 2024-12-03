@@ -1,0 +1,214 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ABDUL AZIZ BIN AZMAN - Personal Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #00aaff, #33ccff);
+            color: white;
+            line-height: 1.6;
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+            padding: 80px 0;
+            background-color: rgba(0, 0, 0, 0.6);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        header h1 {
+            font-size: 3.5em;
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 15px 0;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-size: 1.2em;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #00aaff;
+        }
+
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 2.8em;
+            margin-bottom: 20px;
+            color: #222;
+        }
+
+        .about-me, .projects, .contact, .family {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 25px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .about-me:hover, .projects:hover, .contact:hover, .family:hover {
+            transform: scale(1.05);
+        }
+
+        .about-me p, .socials p {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+            color: #ddd;
+        }
+
+        .contact a {
+            display: inline-block;
+            background-color: #33ccff;
+            color: white;
+            padding: 15px 35px;
+            font-size: 1.3em;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .contact a:hover {
+            background-color: #00aaff;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            background-color: black;
+            color: white;
+            font-size: 1em;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        img {
+            border-radius: 50%;
+            border: 3px solid #fff;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        img:hover {
+            transform: scale(1.1);
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin: 10px 0;
+        }
+
+        ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+
+        ul li a:hover {
+            color: #00aaff;
+        }
+
+        (max-width: 768px) {
+            header h1 {
+                font-size: 2.5em;
+            }
+
+            nav a {
+                font-size: 1.1em;
+                margin: 0 10px;
+            }
+
+            section h2 {
+                font-size: 2.2em;
+            }
+
+            .about-me, .projects, .contact, .family {
+                padding: 20px;
+                margin-bottom: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to My Personal Website!</h1>
+    </header>
+
+    <nav>
+        <a href="#about-me">About Me</a>
+        <a href="#my-family">Family</a>
+        <a href="#socials">Socials</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about-me" class="about-me">
+        <h2>About Me</h2>
+        <a href="gmbar.jpeg"><img src="gmbar.jpeg" alt="Abdul Aziz Bin Azman" width="500" height="500"></a><hr>
+        <p>Hi, I'm Abdul Aziz Bin Azman. I'm currently studying at UiTM Segamat as an Information Management Student. I'm passionate about things that attract me, like games, cars, and other typical interests. I love reading comics online, as many have great art and plots. I don't have a favorite genre, but I judge comics based on art and story progression. Even if the art is questionable, I’ll give it a read if the story engages me. I don't consider myself an interesting person, and I don't pay too much attention to that.</p>
+    </section>
+
+    <section id="my-family" class="family">
+        <h2>Family</h2>
+        <a href="family.jpeg"><img src="family.jpeg" alt="Family" width="500" height="500"></a><hr>
+        <p>I come from a relatively normal suburban family. I'm the fifth child out of six children. I love my family, and they mean the world to me.</p>
+    </section>
+
+    <section id="socials" class="socials">
+        <h2>Socials</h2>
+        <p>Here's the link to my socials:</p>
+        <ul>
+            <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+        </ul>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>If you'd like to get in touch, you can reach out to me via email or check out my social media:</p>
+        <a href="mailto:AzizAzman1367@gmail.com">Email Me</a>
+    </section>
+
+    <footer>
+        <p>Made by Aziz Azman | JIM1105F &copy; 2024</p>
+    </footer>
+
+    <audio controls autoplay>
+        <source src="backgroundsong2.ogg" type="audio/ogg">
+        <source src="backgroundsong2.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+</body>
+
+</html>
